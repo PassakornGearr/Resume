@@ -7,18 +7,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './layout/navbar/navbar.component';
 import { FooterComponent } from './layout/footer/footer.component';
 
-import { SkillComponent } from './component/skill/skill.component';
 import { HomeComponent } from './component/home/home.component';
-import { HistoryComponent } from './component/history/history.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    SkillComponent,
-    HomeComponent,
-    HistoryComponent
+    HomeComponent
   ],
   imports: [
     BrowserModule,
